@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar/>
-        <main className='relative overflow-hidden'>
+        <main className='overflow-hidden'>
         {children}
         </main>
         <Footer/>
