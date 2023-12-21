@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Guide = () => {
   return (
-    <section className="flex flex-col">
+    <section className="flex flex-col ">
       <div className="padding-container max-container w-full pb-24">
         <Image src="/camp.svg" alt="camp" width={50} height={50} />
         <p className="uppercase regular-18 mt-1 mb-3 text-green-50">
@@ -28,8 +28,8 @@ const Guide = () => {
           src="/guide3.jpg"
           alt="guide"
           width={1440}
-          height={280}
-          className=" mr-6 md:mr-0 lg:mr-0 xl:mr-0 2xl:mr-0 md:w-full md:h-[400px] lg:h-full xl:h-full 2xl:h-full rounded-r-5xl w-full md:p-3 lg:p-3 xl:p-4 2xl:p-6 object-cover object-center md:rounded-5xl lg:rounded-5xl 2xl:rounded-5xl "
+          height={480}
+          className="  mr-6 md:mr-0 lg:mr-0 xl:mr-0 2xl:mr-0 md:w-full md:h-[400px]  xl:h-[560px] 2xl:h-full rounded-r-5xl w-full md:p-3 lg:p-3 xl:p-4 2xl:p-6 object-cover object-center md:rounded-5xl lg:rounded-5xl 2xl:rounded-5xl "
         />
       </div>
     </section>

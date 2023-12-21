@@ -124,7 +124,7 @@ const camp = () => {
 
   return (
     <section className=" 2xl:max-container relative flex flex-col  lg:mb-10 lg:py-20 xl:mb-20">
-      <div className=" relative  flex h-[340px] items-start justify-start  lg:h-[400px] xl:h-[640px]">
+      <div className=" relative  flex h-[340px] items-start justify-start lg:p-8  lg:h-[400px] xl:h-[640px]">
       <CampSite 
           backgroundImage={campsites[currentCampIndex].backgroundImage}
           title={campsites[currentCampIndex].title}
@@ -133,8 +133,8 @@ const camp = () => {
         />
         
       </div>
-      <div className=' lg:absolute  md:mt-[40px] pl-10 lg:mt-[400px]  lg:ml-[720px] lg:mr-6'>
-        <div className='bg-green-50  p-8 lg:w-[500px] lg:h-[300px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-l-3xl '>
+      <div className='  xl:absolute lg:ml-[500px] md:mt-[40px] pl-10 lg:mt-[250px] xl:mt-[400px]  xl:ml-[720px] xl:mr-6'>
+        <div className='bg-green-50  p-8 lg:w-[500px] xl:w-[500px]   lg:h-[300px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-l-3xl '>
           <h2 className=' regular-16 md:regular-20 2xl:regular-64 capitalize text-white'> <strong>Hello !!</strong> Are you ready for the next adventure? </h2>
           <p className='regular-14 xl:regular-14 mt-1 text-white w-full'>
           Let's head down to the picturesque waters of Suriya Arana and partake in a series of water-based activities, including Stream Sliding, Swimming and Confidence Jumps.
