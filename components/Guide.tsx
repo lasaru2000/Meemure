@@ -31,6 +31,18 @@ const Guide = () => {
           height={480}
           className="  mr-6 md:mr-0 lg:mr-0 xl:mr-0 2xl:mr-0 md:w-full md:h-[400px]  xl:h-[560px] 2xl:h-full rounded-r-5xl w-full md:p-3 lg:p-3 xl:p-4 2xl:p-6 object-cover object-center md:rounded-5xl lg:rounded-5xl 2xl:rounded-5xl "
         />
+        <div className='absolute flex bg-white py-8 pl-5 pr-7 gap-3 rounded-3xl border shadow-md md:left[5%] lg:top-20  '>
+          <div className='flex justify-center '>
+            <div className='flex w-full flex-col '>
+              <div className='flex justify-center'>
+                <p className='regular-16 text-grey-20 '>Destination</p>
+                <p className=''>48min</p>
+              </div>
+              <p>colombo</p>
+            </div>
+            
+          </div>
+        </div>
       </div>
     </section>
   );
